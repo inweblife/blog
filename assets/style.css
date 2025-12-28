@@ -1,0 +1,329 @@
+/* --- ОСНОВНИ НАСТРОЙКИ --- */
+:root {
+  --primary-color: #333;
+  --accent-color: #007bff;
+  --bg-color: #f4f4f4;
+  --white: #ffffff;
+  --header-height: 70px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* --- HEADER --- */
+header {
+  background-color: var(--white);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: var(--header-height);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+  cursor: default;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active-link {
+  color: var(--accent-color);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+/* --- MAIN & CONTENT --- */
+main {
+  flex: 1;
+  width: 100%;
+}
+
+.page-section {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.page-section.active-section {
+  display: block;
+}
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* --- COVER SECTION --- */
+.cover {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cover-text {
+  position: absolute;
+  top: 50%; /* Премества контейнера на средата по височина */
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ); /* Промених градиента за четимост в средата */
+  color: var(--white);
+
+  transform: translateY(
+    -50%
+  ); /* Изрязва точно половината височина нагоре, за да е идеално по средата */
+  text-align: center;
+}
+
+.cover-text h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cover-text p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* --- TEXT BLOCK SECTION --- */
+.text-block {
+  margin-bottom: 50px;
+}
+
+.text-block h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.text-block p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 900px;
+}
+
+/* --- GRID LAYOUT (За Home & About) --- */
+.grid-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-top: 3px solid var(--accent-color);
+}
+
+.grid-item h3 {
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+/* --- BLOG CARD STYLES --- */
+.blog-card {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.card-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+/* --- FOOTER --- */
+footer {
+  background-color: #1e3a8a;
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0; /* Махаме отстоянията надолу, които бутат текста */
+  line-height: 1; /* Намаляме височината на реда до нормално */
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: var(--header-height);
+    flex-direction: column;
+    background-color: var(--white);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+  }
+  .nav-links.nav-active {
+    right: 0;
+  }
+  .cover {
+    height: 250px;
+  }
+  .cover-text h2 {
+    font-size: 2rem;
+  }
+  .text-block h2 {
+    font-size: 1.8rem;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

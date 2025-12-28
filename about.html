@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>За мен - Иван Димитров</title>
+    <!-- 1. META ДАННИ ЗА ТЪРСАЧКИ (Google/Bing) -->
+    <meta
+      name="description"
+      content="Блогът на Иван - анализи и статии за футбол, автомобили и още. Следете за актуална информация и полезни съвети."
+    />
+    <meta name="author" content="Иван Димитров" />
+    <meta name="copyright" content="Иван Димитров" />
+    <link rel="icon" href="/image/favicon.png" type="image/png" />
+    <!-- 2. OPEN GRAPH ЗА СОЦИАЛНИ МРЕЖИ (Facebook, Viber, LinkedIn) -->
+    <meta property="og:title" content="Блогът на Иван" />
+    <meta
+      property="og:description"
+      content="Блогът на Иван - анализи и статии за футбол, автомобили и още. Следете за актуална информация и полезни съвети."
+    />
+    <!-- Сложи линк към снимка, която искаш да се вижда при споделяне (1200x630px е идеално) -->
+    <meta property="og:image" content="/image/image1.webp" />
+    <meta property="og:url" content="https://inweblife.pages.dev/" />
+    <!-- Тук сложи истинския домейн на сайта -->
+    <meta property="og:type" content="website" />
+
+    <!-- 3. TWITTER CARDS -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Блогът на Иван" />
+    <meta
+      name="twitter:description"
+      content="Блогът на Иван - анализи и статии за футбол, автомобили и още. Следете за актуална информация и полезни съвети."
+    />
+    <meta name="twitter:image" content="/image/image1.webp" />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <!-- логото Блогът на Иван -->
+        <a href="index.html" class="logo">Блогът на Иван</a>
+
+        <button class="hamburger" aria-label="Toggle navigation">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+
+        <ul class="nav-links">
+          <!-- Променени са текстовете, но data-target остава същият -->
+          <li><a href="/" class="nav-link" data-target="home">Начало</a></li>
+          <li>
+            <a
+              href="about.html"
+              class="nav-link active-link"
+              data-target="about"
+              >За мен</a
+            >
+          </li>
+          <li>
+            <a href="blog.html" class="nav-link" data-target="blog">Блог</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN (Добавен е таг main за правилно подреждане) -->
+    <main>
+      <!-- СЕКЦИЯ ABOUT -->
+      <!-- Виж тук: добавих active-section! -->
+      <section id="about" class="page-section active-section">
+        <div class="cover">
+          <img src="/image/ivan.webp" alt="Всичко за автоблог" />
+          <div class="cover-text">
+            <h2>За мен</h2>
+            <p>Кой съм аз и какво правя.</p>
+          </div>
+        </div>
+        <div class="content-container">
+          <div class="text-block">
+            <h2>Кой съм аз – Иван Димитров</h2>
+            <p>
+              Казвам се Иван Димитров и съм роден през 1977 година в София,
+              България. Занимавам се с web development от 2011 година. Завърших
+              престижната школа w3schools през 2018 година (успешно положих
+              изпита по JavaScript), Frontend Masters, както и няколко руски
+              школи за програмиране, responsive design и web development.
+            </p>
+
+            <p>
+              Допълнително се квалифицирах в digital marketing – Facebook Ads,
+              Google Ads, remarketing, SEO и други. Прилагам Mobile First подход
+              при изграждането на сайтове, съобразени с най-модерните критерии
+              за Google ranking и Facebook marketing. Имам богат опит с проекти
+              в различни бизнес сфери – от настройка за маркетингови кампании,
+              SEO и PPC, до интеграция с Facebook Business и Google услуги
+            </p>
+
+            <p>
+              Някои от реализираните ми проекти са: kolazascrap.com,
+              ecometal.bg, kolizascrap.com и carco.bg. Убеден съм, че сайтовете
+              трябва да се правят от първия до последния код според най-добрите
+              Google практики – от заглавия и ключови думи, през скорост на
+              зареждане, до приятно потребителско изживяване. Повече за това
+              споделям в блога "Живот на пълни обороти".
+            </p>
+
+            <p>
+              Виж моя официален сертификат от w3schools:
+              <a
+                href="https://verify.w3schools.com/1ML447N7UP"
+                target="_blank"
+                rel="noopener"
+                >W3Schools Certification Verification</a
+              >
+            </p>
+          </div>
+          <div class="grid-section">
+            <div class="grid-3">
+              <div class="grid-item">
+                <h3>История</h3>
+                <p>
+                  Започнах с web development през 2011 година. През 2018 положих
+                  успешно изпита на w3schools по JavaScript, завърших Frontend
+                  Masters и няколко специализирани школи. Работил съм по десетки
+                  проекти – от малки сайтове до сложни интеграции с Google и
+                  Facebook услуги. Опитът ми обхваща всичко – от код до
+                  маркетингови кампании.
+                </p>
+              </div>
+              <div class="grid-item">
+                <h3>Мисия</h3>
+                <p>
+                  Да създавам сайтове, които не само изглеждат добре, а и носят
+                  реални резултати за бизнеса. Комбинирам технически умения с
+                  SEO и маркетингови стратегии, за да помогна на клиентите си да
+                  растат онлайн. Вярвам в Mobile First подхода и най-добрите
+                  Google практики – от скорост до потребителско изживяване.
+                </p>
+              </div>
+              <div class="grid-item">
+                <h3>Визия</h3>
+                <p>
+                  Да споделям знанията си чрез блога "Живот на пълни обороти" –
+                  за програмиране, SEO, футбол и автомобили. Искам да показвам
+                  как технологиите могат да се съчетаят със страстта към живота.
+                  Бъдещето е в умните сайтове и реалните резултати – и аз съм
+                  тук, за да го правя възможно.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text-block">
+            <h2>Присъедини се към пътя на пълни обороти</h2>
+            <p>
+              Благодаря, че отдели време да научиш повече за мен и моя опит. От
+              web development и SEO до страстта ми към футбола и автомобилите –
+              всичко това ме кара да продължавам напред с енергия и желание да
+              споделям знания.
+            </p>
+
+            <p>
+              В блога "Живот на пълни обороти" ще намериш точно това –
+              практически съвети, анализи и лични истории от света на
+              технологиите, спорта и автомобилите. Новите публикации идват
+              редовно, така че добави сайта в bookmarks или се връщай по-често.
+            </p>
+
+            <p>
+              Газ напред – животът е твърде кратък за бавни обороти. Очаквам те
+              в следващата публикация!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Блогът на Иван.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Блогът с публикациите на Иван Димитров</title>
+    <!-- 1. META ДАННИ ЗА ТЪРСАЧКИ (Google/Bing) -->
+    <meta name="description"
+        content="Блогът на Иван - анализи и статии за футбол, автомобили и още. Следете за актуална информация и полезни съвети." />
+    <meta name="author" content="Иван Димитров" />
+    <meta name="copyright" content="Иван Димитров" />
+    <link rel="icon" href="/image/favicon.png" type="image/png" />
+    <!-- 2. OPEN GRAPH ЗА СОЦИАЛНИ МРЕЖИ (Facebook, Viber, LinkedIn) -->
+    <meta property="og:title" content="Блогът на Иван" />
+    <meta property="og:description"
+        content="Блогът на Иван - анализи и статии за футбол, автомобили и още. Следете за актуална информация и полезни съвети." />
+    <!-- Сложи линк към снимка, която искаш да се вижда при споделяне (1200x630px е идеално) -->
+    <meta property="og:image" content="/image/image1.webp" />
+    <meta property="og:url" content="https://inweblife.pages.dev/" />
+    <!-- Тук сложи истинския домейн на сайта -->
+    <meta property="og:type" content="website" />
+
+    <!-- 3. TWITTER CARDS -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Блогът на Иван" />
+    <meta name="twitter:description"
+        content="Блогът на Иван - анализи и статии за футбол, автомобили и още. Следете за актуална информация и полезни съвети." />
+    <meta name="twitter:image" content="/image/image1.webp" />
+    <link rel="stylesheet" href="/assets/style.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <!-- логото Блогът на Иван -->
+            <a href="index.html" class="logo">Блогът на Иван</a>
+
+            <button class="hamburger" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <ul class="nav-links">
+                <!-- Променени са текстовете, но data-target остава същият -->
+                <li><a href="/" class="nav-link" data-target="home">Начало</a></li>
+                <li>
+                    <a href="about.html" class="nav-link" data-target="about">За мен</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link active-link" data-target="blog">Блог</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- СЕКЦИЯ BLOG -->
+        <!-- Виж тук: добавих active-section! Това казва на сайта да покаже този текст. -->
+        <section id="blog" class="page-section active-section">
+            <div class="cover">
+                <img src="/image/image3.webp" alt="Блог автоблог" />
+                <div class="cover-text">
+                    <h2>Блог</h2>
+                    <p>Последни новини и статии.</p>
+                </div>
+            </div>
+
+            <div class="content-container">
+                <div class="text-block">
+                    <h2>Последни публикации</h2>
+                    <p>
+                        Добре дошъл в блога "Живот на пълни обороти"! Тук споделям мисли,
+                        опит и страст по три основни теми – футбол, SEO и автомобили
+                        (части втора употреба и скрап). От анализи на мачове и прогнози,
+                        през работещи SEO трикове, до практически съвети как да купиш или
+                        продадеш кола изгодно – всичко е реално, полезно и без излишни
+                        приказки.
+                    </p>
+
+                    <p>
+                        Животът тече бързо, а аз вярвам, че трябва да се ползват всички
+                        възможности – на терена, в търсачката и на пътя. Ако обичаш
+                        адреналина от головете, искаш сайтът ти да е на първа страница в
+                        Google или търсиш най-добрата сделка за резервни части – тук ще
+                        намериш точно това.
+                    </p>
+
+                    <p>
+                        Новите публикации идват редовно – добави сайта в bookmarks или се
+                        връщай по-често. Газ напред – животът на пълни обороти започва
+                        тук!
+                    </p>
+                </div>
+
+                <div class="grid-section">
+                    <div class="grid-3">
+                        <div class="blog-card">
+                            <img src="/image/image2.webp" alt="Post 1" />
+                            <div class="card-content">
+                                <span class="card-date">15 Октомври 2025</span>
+                                <h3>Коли за скрап на най-добри цени</h3>
+                                <p>
+                                    Всичко за изгодното бракуване на автомобили – как да
+                                    изберете надежден рециклатор, какви документи са нужни и как
+                                    да получите справедлива цена за колата си като скрап.
+                                </p>
+                                <a href="/posts/koli-za-scrap-na-nai-dobri-ceni.html" class="btn">Виж още</a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <img src="/image/seo.webp" alt="Post 2" />
+                            <div class="card-content">
+                                <span class="card-date">10 Ноември 2025</span>
+                                <h3>Митът за безплатното SEO</h3>
+                                <p>
+                                    Заблудата за безплатното SEO руши бизнеси. Разберете
+                                    реалните разходи за органично позициониране и защо
+                                    комбинацията SEO + PPC е единственият път към успех.
+                                </p>
+                                <a href="/posts/seo-mit-bezplatno.html" class="btn">Виж още</a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <img src="/image/bulgariafootball.webp" alt="Пропадането на българския футбол" />
+                            <div class="card-content">
+                                <span class="card-date">05 Декември 2025</span>
+                                <h3>Как инвестициите в ЦСКА променят българския футбол</h3>
+                                <p>
+                                    300 млн евро в ЦСКА променят всичко. От Панчарево и новата ДЮШ до английския модел –
+                                    как инфраструктурата спасява българския футбол от дъното. Уроци, факти и бъдеще.
+                                </p>
+                                <a href="/posts/cska-investicii-futbol.html" class="btn">Виж още</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; <span id="year"></span> Блогът на Иван.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
