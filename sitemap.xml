@@ -4,44 +4,48 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://inweblife.pages.dev/</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
+  <lastmod>2026-04-15</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/about</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
+  <loc>https://inweblife.pages.dev/about.html</loc>
+  <lastmod>2026-04-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://inweblife.pages.dev/blog.html</loc>
+  <lastmod>2026-04-15</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/blog</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://inweblife.pages.dev/posts/koli-za-scrap-na-nai-dobri-ceni.html</loc>
+  <lastmod>2025-10-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/koli-za-scrap-na-nai-dobri-ceni</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://inweblife.pages.dev/posts/seo-mit-bezplatno.html</loc>
+  <lastmod>2026-04-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/seo-mit-bezplatno</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://inweblife.pages.dev/posts/cska-investicii-futbol.html</loc>
+  <lastmod>2025-12-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/cska-investicii-futbol</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://inweblife.pages.dev/posts/reklama-v-gugal.html</loc>
+  <lastmod>2026-04-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
-<url>
-  <loc>https://inweblife.pages.dev/posts/index.html</loc>
-  <lastmod>2025-12-28T19:11:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
 
 </urlset>
