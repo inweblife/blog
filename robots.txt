@@ -2,4 +2,3 @@
 Allow: /
 
 Sitemap: https://seoconsult.org/sitemap.xml
-Sitemap: https://seoconsult.org/feed.xml
