@@ -1,5 +1,5 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://inweblife.pages.dev/sitemap.xml
-Sitemap: https://inweblife.pages.dev/feed.xml
+Sitemap: https://seoconsult.org/sitemap.xml
+Sitemap: https://seoconsult.org/feed.xml

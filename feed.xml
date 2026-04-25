@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Блогът на Иван</title>
     <description>Блогът на Иван Димитров за споделяне на най-новото от света на Web Dev, SEO, автомобили и футбол.</description>
-    <link>https://inweblife.pages.dev/</link>
-    <atom:link href="https://inweblife.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://seoconsult.org/</link>
+    <atom:link href="https://seoconsult.org/feed.xml" rel="self" type="application/rss+xml" />
     <language>bg-bg</language>
     <lastBuildDate>Wed, 15 Apr 2026 10:00:00 GMT</lastBuildDate>
     <item>
       <title>Реклама в Гугъл: как работи, колко струва и как да започнете</title>
       <description>Пълно ръководство за Google Ads – как работи аукционният модел, колко струва рекламата в Гугъл, как да пуснете първата си кампания и кой рекламен формат е подходящ за вашия бизнес.</description>
-      <link>https://inweblife.pages.dev/posts/reklama-v-gugal</link>
-      <guid>https://inweblife.pages.dev/posts/reklama-v-gugal</guid>
+      <link>https://seoconsult.org/posts/reklama-v-gugal</link>
+      <guid>https://seoconsult.org/posts/reklama-v-gugal</guid>
       <pubDate>Sat, 10 Jan 2026 10:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Как инвестициите в ЦСКА променят българския футбол</title>
       <description>Анализ на инвестициите в ЦСКА и тяхното влияние върху българския футбол, развитието на отбора и перспективите за феновете.</description>
-      <link>https://inweblife.pages.dev/posts/cska-investicii-futbol</link>
-      <guid>https://inweblife.pages.dev/posts/cska-investicii-futbol</guid>
+      <link>https://seoconsult.org/posts/cska-investicii-futbol</link>
+      <guid>https://seoconsult.org/posts/cska-investicii-futbol</guid>
       <pubDate>Fri, 05 Dec 2025 10:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SEO оптимизацията е инвестиция, не безплатен трафик</title>
       <description>Разкриваме истината за разходите в SEO. От семантично ядро и техническа оптимизация до линкбилдинг и копирайтинг – защо качественото позициониране никога не е безплатно.</description>
-      <link>https://inweblife.pages.dev/posts/seo-mit-bezplatno</link>
-      <guid>https://inweblife.pages.dev/posts/seo-mit-bezplatno</guid>
+      <link>https://seoconsult.org/posts/seo-mit-bezplatno</link>
+      <guid>https://seoconsult.org/posts/seo-mit-bezplatno</guid>
       <pubDate>Mon, 10 Nov 2025 10:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Коли за скрап на най-добри цени – Пълно ръководство</title>
       <description>Подробна публикация за изкупуване на коли за скрап – как се определят цените, какви фактори влияят и как да получите най-добрата оферта.</description>
-      <link>https://inweblife.pages.dev/posts/koli-za-scrap-na-nai-dobri-ceni</link>
-      <guid>https://inweblife.pages.dev/posts/koli-za-scrap-na-nai-dobri-ceni</guid>
+      <link>https://seoconsult.org/posts/koli-za-scrap-na-nai-dobri-ceni</link>
+      <guid>https://seoconsult.org/posts/koli-za-scrap-na-nai-dobri-ceni</guid>
       <pubDate>Wed, 15 Oct 2025 10:00:00 GMT</pubDate>
     </item>
   </channel>

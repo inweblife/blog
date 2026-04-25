@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,43 +6,43 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://inweblife.pages.dev/</loc>
+  <loc>https://seoconsult.org/</loc>
   <lastmod>2026-04-15</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/about</loc>
+  <loc>https://seoconsult.org/about</loc>
   <lastmod>2026-04-15</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/blog</loc>
+  <loc>https://seoconsult.org/blog</loc>
   <lastmod>2026-04-15</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/koli-za-scrap-na-nai-dobri-ceni</loc>
+  <loc>https://seoconsult.org/posts/koli-za-scrap-na-nai-dobri-ceni</loc>
   <lastmod>2025-10-15</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/seo-mit-bezplatno</loc>
+  <loc>https://seoconsult.org/posts/seo-mit-bezplatno</loc>
   <lastmod>2026-04-15</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/cska-investicii-futbol</loc>
+  <loc>https://seoconsult.org/posts/cska-investicii-futbol</loc>
   <lastmod>2025-12-05</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://inweblife.pages.dev/posts/reklama-v-gugal</loc>
+  <loc>https://seoconsult.org/posts/reklama-v-gugal</loc>
   <lastmod>2026-04-15</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
