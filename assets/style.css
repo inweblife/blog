@@ -182,12 +182,21 @@ main {
   text-decoration: underline;
 }
 
-.text-block .btn:not(.btn-outline) {
+.cta-buttons .btn {
   color: var(--white);
 }
 
-.text-block .btn:hover {
+.cta-buttons .btn:hover {
   text-decoration: none;
+  color: var(--white);
+}
+
+.cta-buttons .btn-outline {
+  color: var(--accent-color);
+}
+
+.cta-buttons .btn-outline:hover {
+  color: var(--white);
 }
 
 .text-block p {
