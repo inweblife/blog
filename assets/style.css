@@ -23,6 +23,10 @@ body {
   min-height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* --- HEADER --- */
 header {
   background-color: var(--white);
@@ -408,8 +412,29 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90px;
-  padding: 0 20px;
+  min-height: 130px;
+  padding: 24px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.back-to-top {
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  padding: 7px 16px;
+  line-height: 1;
 }
 
 footer p {
@@ -424,6 +449,11 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.back-to-top:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 /* --- RESPONSIVE --- */
