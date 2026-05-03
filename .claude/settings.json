@@ -6,7 +6,8 @@
       "Bash(python3 -c ' *)",
       "Bash(node -e ' *)",
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\" -Force)",
-      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\image\" -Force 2>$null | ForEach-Object { $_.Name })"
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\image\" -Force 2>$null | ForEach-Object { $_.Name })",
+      "Read(//c/Users/ivan7/Documents/Dev/Blog/image/**)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image"
