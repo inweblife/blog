@@ -24,7 +24,8 @@
       "WebFetch(domain:seo-expert.bg)",
       "WebFetch(domain:mybusinessbg.com)",
       "WebFetch(domain:bgseo.eu)",
-      "WebFetch(domain:webnime.com)"
+      "WebFetch(domain:webnime.com)",
+      "Bash(grep -n '&quot;\\\\| \".\\\\{1,40\\\\}\" ' \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\about.html\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image"
