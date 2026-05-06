@@ -10,7 +10,14 @@
       "Read(//c/Users/ivan7/Documents/Dev/Blog/image/**)",
       "PowerShell(Get-ChildItem \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\image\\\\\" | Where-Object { $_.Name -match \"SEO|seo|search\" } | Select-Object Name)",
       "PowerShell(Rename-Item \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\image\\\\searchengine.webp\" \"blog-cover.webp\")",
-      "PowerShell(\\(Get-Item \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\.gitignore\"\\).Length / 1MB)"
+      "PowerShell(\\(Get-Item \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\.gitignore\"\\).Length / 1MB)",
+      "Bash(git rev-list *)",
+      "Bash(git cat-file *)",
+      "Bash(sort -k3 -rn)",
+      "Bash(git checkout *)",
+      "Bash(git branch *)",
+      "Bash(git reflog *)",
+      "Bash(git gc *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image"
