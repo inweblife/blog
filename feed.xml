@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Блогът на Иван</title>
-    <description>Блогът на Иван Димитров за споделяне на най-новото от света на Web Dev, SEO, автомобили и футбол.</description>
+    <title>SEO консултации</title>
+    <description>SEO консултации от Иван Димитров за техническа оптимизация, съдържание, индексация в Google и органичен трафик.</description>
     <link>https://seoconsult.org/</link>
     <atom:link href="https://seoconsult.org/feed.xml" rel="self" type="application/rss+xml" />
     <language>bg-bg</language>
