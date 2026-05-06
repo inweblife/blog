@@ -17,7 +17,14 @@
       "Bash(git checkout *)",
       "Bash(git branch *)",
       "Bash(git reflog *)",
-      "Bash(git gc *)"
+      "Bash(git gc *)",
+      "WebSearch",
+      "WebFetch(domain:seomarketing.bg)",
+      "WebFetch(domain:nikolayiliev.bg)",
+      "WebFetch(domain:seo-expert.bg)",
+      "WebFetch(domain:mybusinessbg.com)",
+      "WebFetch(domain:bgseo.eu)",
+      "WebFetch(domain:webnime.com)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image"
