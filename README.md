@@ -15,11 +15,20 @@
 
 ## Deployment
 
+### Подготовка преди deployment
+
+1. **Премести .git директорията**: `mv .git ../blog-git-backup`
+2. **Провери броя на файловете**: трябва да са около 25
+
 ### Cloudflare Pages
 
 1. Инсталирай wrangler: `npm install -g wrangler`
 2. Влез в акаунта: `wrangler auth login`
 3. Деплойни: `wrangler pages deploy . --project-name inweblife-blog`
+
+### След deployment
+
+1. **Възстанови .git**: стартирай `restore-git.bat` или `mv ../blog-git-backup .git`
 
 ### Други платформи
 
