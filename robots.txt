@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://seoconsult.org/sitemap.xml
+Sitemap: https://www.seoconsult.org/sitemap.xml

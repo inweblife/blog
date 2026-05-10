@@ -6,37 +6,37 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://seoconsult.org/</loc>
+  <loc>https://www.seoconsult.org/</loc>
   <lastmod>2026-05-06</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://seoconsult.org/about</loc>
+  <loc>https://www.seoconsult.org/about</loc>
   <lastmod>2026-05-06</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://seoconsult.org/blog</loc>
+  <loc>https://www.seoconsult.org/blog</loc>
   <lastmod>2026-05-06</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://seoconsult.org/posts/seo-mit-bezplatno</loc>
+  <loc>https://www.seoconsult.org/posts/seo-mit-bezplatno</loc>
   <lastmod>2026-05-06</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://seoconsult.org/posts/reklama-v-gugal</loc>
+  <loc>https://www.seoconsult.org/posts/reklama-v-gugal</loc>
   <lastmod>2026-05-06</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://seoconsult.org/posts/kak-se-pravi-seo-optimizaciya</loc>
+  <loc>https://www.seoconsult.org/posts/kak-se-pravi-seo-optimizaciya</loc>
   <lastmod>2026-05-06</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
