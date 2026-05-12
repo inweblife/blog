@@ -25,10 +25,16 @@
       "WebFetch(domain:mybusinessbg.com)",
       "WebFetch(domain:bgseo.eu)",
       "WebFetch(domain:webnime.com)",
-      "Bash(grep -n '&quot;\\\\| \".\\\\{1,40\\\\}\" ' \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\about.html\")"
+      "Bash(grep -n '&quot;\\\\| \".\\\\{1,40\\\\}\" ' \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\about.html\")",
+      "Bash(Get-Content \"c:\\\\Users\\\\ivan7\\\\Documents\\\\Dev\\\\Blog\\\\index.html\")",
+      "Bash(Select-String -Pattern \"footer\" -Context 0,50)",
+      "Bash(Select-Object -First 1)",
+      "Bash(Format-List)",
+      "Read(//c/Users/ivan7/Documents/Dev/**)"
     ],
     "additionalDirectories": [
-      "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image"
+      "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image",
+      "c:\\Users\\ivan7\\Documents\\Dev\\autoblog\\app\\components"
     ]
   }
 }
