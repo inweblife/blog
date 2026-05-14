@@ -34,7 +34,8 @@
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image",
-      "c:\\Users\\ivan7\\Documents\\Dev\\autoblog\\app\\components"
+      "c:\\Users\\ivan7\\Documents\\Dev\\autoblog\\app\\components",
+      "c:\\Users\\ivan7\\.claude\\projects\\c--Users-ivan7-Documents-Dev-Blog\\memory"
     ]
   }
 }

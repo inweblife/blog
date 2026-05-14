@@ -37,7 +37,13 @@
 </url>
 <url>
   <loc>https://www.seoconsult.org/posts/kak-se-pravi-seo-optimizaciya</loc>
-  <lastmod>2026-05-06</lastmod>
+  <lastmod>2026-05-14</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.seoconsult.org/posts/seo-odit-na-sait-kolko-struva</loc>
+  <lastmod>2026-05-14</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
