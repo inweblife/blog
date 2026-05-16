@@ -30,7 +30,9 @@
       "Bash(Select-String -Pattern \"footer\" -Context 0,50)",
       "Bash(Select-Object -First 1)",
       "Bash(Format-List)",
-      "Read(//c/Users/ivan7/Documents/Dev/**)"
+      "Read(//c/Users/ivan7/Documents/Dev/**)",
+      "Bash(curl -I https://www.seo-analizi.com)",
+      "Bash(curl -I https://seo-analizi.com)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image",
