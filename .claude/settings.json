@@ -32,7 +32,9 @@
       "Bash(Format-List)",
       "Read(//c/Users/ivan7/Documents/Dev/**)",
       "Bash(curl -I https://www.seo-analizi.com)",
-      "Bash(curl -I https://seo-analizi.com)"
+      "Bash(curl -I https://seo-analizi.com)",
+      "Bash(git config *)",
+      "Bash(GIT_TRACE=1 git status)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\Blog\\image",
