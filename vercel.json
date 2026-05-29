@@ -5,7 +5,11 @@
     { "source": "/image/SEO-optimize.webp", "destination": "/image/seo-cover.webp", "permanent": true },
     { "source": "/image/SEO-optimze.webp", "destination": "/image/seo-cover.webp", "permanent": true },
     { "source": "/image/seo-optimize.webp", "destination": "/image/seo-cover.webp", "permanent": true },
-    { "source": "/posts/kak-se-pravi-seo-optimizacya", "destination": "/posts/kak-se-pravi-seo-optimizaciya", "permanent": true }
+    { "source": "/posts/kak-se-pravi-seo-optimizacya", "destination": "/kak-se-pravi-seo-optimizaciya", "permanent": true },
+    { "source": "/posts/seo-odit-na-sait-kolko-struva", "destination": "/seo-odit-na-sait-kolko-struva", "permanent": true },
+    { "source": "/posts/kak-se-pravi-seo-optimizaciya", "destination": "/kak-se-pravi-seo-optimizaciya", "permanent": true },
+    { "source": "/posts/reklama-v-gugal", "destination": "/reklama-v-gugal", "permanent": true },
+    { "source": "/posts/seo-mit-bezplatno", "destination": "/seo-mit-bezplatno", "permanent": true }
   ],
   "headers": [
     {
