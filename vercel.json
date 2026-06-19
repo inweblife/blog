@@ -14,7 +14,13 @@
     { "source": "/posts/reklama-v-gugal", "destination": "/reklama-v-gugal", "permanent": true },
     { "source": "/posts/reklama-v-gugal.html", "destination": "/reklama-v-gugal", "permanent": true },
     { "source": "/posts/seo-mit-bezplatno", "destination": "/seo-mit-bezplatno", "permanent": true },
-    { "source": "/posts/seo-mit-bezplatno.html", "destination": "/seo-mit-bezplatno", "permanent": true }
+    { "source": "/posts/seo-mit-bezplatno.html", "destination": "/seo-mit-bezplatno", "permanent": true },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "blog-wheat-six-60.vercel.app" }],
+      "destination": "https://www.seo-analizi.com/:path*",
+      "permanent": true
+    }
   ],
   "headers": [
     {
