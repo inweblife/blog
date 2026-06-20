@@ -288,17 +288,33 @@ main {
 
   .text-block tr {
     margin-bottom: 16px;
-    border: 1px solid #e8e8e8;
+    border: none;
     border-radius: 8px;
-    padding: 12px;
+    padding: 0;
     background: var(--white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+  }
+
+  .text-block td:first-child {
+    background-color: #1e3a8a;
+    color: var(--white);
+    font-weight: 600;
+    padding: 10px 14px;
+  }
+
+  .text-block td:first-child::before {
+    color: rgba(255, 255, 255, 0.7);
   }
 
   .text-block td {
-    padding: 6px 0;
-    border-bottom: none;
+    padding: 8px 14px;
+    border-bottom: 1px solid #e8e8e8;
     font-size: 0.9rem;
+  }
+
+  .text-block td:last-child {
+    border-bottom: none;
   }
 
   .text-block td::before {
