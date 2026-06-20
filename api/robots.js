@@ -3,7 +3,6 @@ export default function handler(req, res) {
     'User-agent: *',
     'Allow: /',
     '',
-    'Host: https://www.seo-analizi.com',
     'Sitemap: https://www.seo-analizi.com/sitemap.xml',
     ''
   ].join('\r\n');
