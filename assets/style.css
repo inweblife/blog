@@ -327,6 +327,51 @@ main {
   }
 }
 
+/* --- SHARE BUTTONS --- */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.share-buttons span {
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.share-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #555;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.share-buttons a:hover {
+  color: var(--white);
+}
+
+.share-buttons a.share-facebook:hover {
+  background-color: #1877f2;
+}
+
+.share-buttons a.share-x:hover {
+  background-color: #000;
+}
+
+.share-buttons a.share-linkedin:hover {
+  background-color: #0a66c2;
+}
+
 /* --- POST NAVIGATION --- */
 .post-navigation {
   display: flex;
