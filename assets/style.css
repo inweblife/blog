@@ -621,6 +621,9 @@ footer a:hover {
 
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
   .hamburger {
     display: block;
   }
