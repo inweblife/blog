@@ -147,7 +147,7 @@ main {
 }
 
 .cover-text p {
-  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
   line-height: 1.35;
   opacity: 0.9;
   margin-bottom: 0;
