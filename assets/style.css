@@ -581,7 +581,7 @@ footer {
 
 .fat-footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 32px;
   text-align: left;
 }
