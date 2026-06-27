@@ -713,6 +713,13 @@ footer a:hover {
     grid-template-columns: 1fr;
     gap: 28px;
   }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .footer-bottom p {
+    padding: 0 16px;
+  }
 }
 
 @keyframes fadeIn {
