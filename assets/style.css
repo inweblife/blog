@@ -644,6 +644,19 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.footer-google {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.footer-google:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
 .back-to-top:hover {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.12);
