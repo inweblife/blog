@@ -24,4 +24,41 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // 3. СЪГЛАСИЕ ЗА БИСКВИТКИ
+    const CONSENT_KEY = 'cookie_consent';
+    const consentChoice = localStorage.getItem(CONSENT_KEY);
+
+    function updateAnalyticsConsent(granted) {
+        if (typeof gtag === 'function') {
+            gtag('consent', 'update', {
+                analytics_storage: granted ? 'granted' : 'denied'
+            });
+        }
+    }
+
+    if (consentChoice === 'accepted') {
+        updateAnalyticsConsent(true);
+    } else if (!consentChoice) {
+        const banner = document.createElement('div');
+        banner.className = 'cookie-banner';
+        banner.innerHTML = `
+            <p>Този сайт използва бисквитки за анализ на трафика (Google Analytics). Приемате ли?</p>
+            <div class="cookie-banner-actions">
+                <button type="button" class="cookie-btn cookie-btn-accept">Приемам</button>
+                <button type="button" class="cookie-btn cookie-btn-reject">Отказвам</button>
+            </div>
+        `;
+        document.body.appendChild(banner);
+
+        banner.querySelector('.cookie-btn-accept').addEventListener('click', () => {
+            localStorage.setItem(CONSENT_KEY, 'accepted');
+            updateAnalyticsConsent(true);
+            banner.remove();
+        });
+        banner.querySelector('.cookie-btn-reject').addEventListener('click', () => {
+            localStorage.setItem(CONSENT_KEY, 'rejected');
+            banner.remove();
+        });
+    }
 });
