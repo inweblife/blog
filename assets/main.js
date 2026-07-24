@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    if (consentChoice === 'accepted') {
-        updateAnalyticsConsent(true);
+    if (consentChoice === 'rejected') {
+        updateAnalyticsConsent(false);
     } else if (!consentChoice) {
         const banner = document.createElement('div');
         banner.className = 'cookie-banner';
@@ -53,11 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         banner.querySelector('.cookie-btn-accept').addEventListener('click', () => {
             localStorage.setItem(CONSENT_KEY, 'accepted');
-            updateAnalyticsConsent(true);
             banner.remove();
         });
         banner.querySelector('.cookie-btn-reject').addEventListener('click', () => {
             localStorage.setItem(CONSENT_KEY, 'rejected');
+            updateAnalyticsConsent(false);
             banner.remove();
         });
     }
