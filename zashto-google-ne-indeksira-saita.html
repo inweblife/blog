@@ -174,17 +174,17 @@
               <tr>
                 <td data-label="Стъпка">Обхождане</td>
                 <td data-label="Какво прави Google">Googlebot открива и прочита страницата</td>
-                <td data-label="Какво изглежда отвън">"Не се виждам в Google"</td>
+                <td data-label="Какво изглежда отвън">В GSC статусът е "Discovered - currently not indexed" или URL адресът липсва изцяло от Crawl Stats репорта</td>
               </tr>
               <tr>
                 <td data-label="Стъпка">Индексиране</td>
                 <td data-label="Какво прави Google">Решава дали да я запази в базата данни</td>
-                <td data-label="Какво изглежда отвън">"Не се виждам в Google"</td>
+                <td data-label="Какво изглежда отвън">В GSC статусът е "Crawled - currently not indexed" или "Duplicate, submitted URL not selected as canonical"; заявка със <code>site:</code> не показва страницата</td>
               </tr>
               <tr>
                 <td data-label="Стъпка">Класиране</td>
                 <td data-label="Какво прави Google">Определя на коя позиция да я показва при търсене</td>
-                <td data-label="Какво изглежда отвън">"Не се виждам в Google"</td>
+                <td data-label="Какво изглежда отвън">Страницата е индексирана (<code>site:</code> я показва), но не се появява за целеви заявки извън последните позиции</td>
               </tr>
             </tbody>
           </table>
