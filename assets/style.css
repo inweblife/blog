@@ -662,6 +662,13 @@ footer a:hover {
   text-decoration: none;
 }
 
+.footer-preferred-source {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .back-to-top:hover {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.12);
