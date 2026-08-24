@@ -665,7 +665,7 @@ footer a:hover {
 .footer-preferred-source {
   display: flex;
   justify-content: center;
-  max-width: 100%;
+  width: min(300px, 100%);
   overflow-x: auto;
 }
 
