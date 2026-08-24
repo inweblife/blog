@@ -724,6 +724,9 @@ footer a:hover {
     flex-direction: column;
     gap: 14px;
   }
+  .footer-preferred-source {
+    width: min(280px, 100%);
+  }
   .footer-bottom p {
     font-size: 0.85rem;
     line-height: 1.4;
