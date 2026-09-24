@@ -472,6 +472,7 @@ main {
 
 /* --- BLOG CARD STYLES --- */
 .blog-card {
+  position: relative;
   background: var(--white);
   border-radius: 8px;
   overflow: hidden;
@@ -480,6 +481,13 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+/* Бутонът покрива цялата картичка - един линк, цялата картичка е кликаема */
+.blog-card .btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
 
 .blog-card:hover {
