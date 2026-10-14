@@ -731,8 +731,14 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
   .fat-footer {
-    grid-template-columns: auto 1fr;
-    gap: 20px 28px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .logo {
+    font-size: 1.15rem;
+  }
+  .cover-about .cover-text {
+    justify-content: flex-start;
   }
   .footer-bottom {
     flex-direction: column;
