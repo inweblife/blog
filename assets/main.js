@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const banner = document.createElement('div');
         banner.className = 'cookie-banner';
         banner.innerHTML = `
-            <p>Този сайт използва бисквитки за анализ на трафика (Google Analytics). Приемате ли?</p>
+            <p>Използвам бисквитки само за анализ на посещенията (Google Analytics).</p>
             <div class="cookie-banner-actions">
                 <button type="button" class="cookie-btn cookie-btn-accept">Приемам</button>
                 <button type="button" class="cookie-btn cookie-btn-reject">Отказвам</button>
