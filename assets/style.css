@@ -737,9 +737,6 @@ footer a:hover {
   .logo {
     font-size: 1.15rem;
   }
-  .cover-about .cover-text {
-    justify-content: flex-start;
-  }
   .footer-bottom {
     flex-direction: column;
     gap: 14px;
