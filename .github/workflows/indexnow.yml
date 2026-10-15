@@ -1,0 +1,79 @@
+name: Notify Bing with IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+      - 'sitemap.xml'
+      - 'feed.xml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit-changed-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the published revision
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Wait for Vercel and notify Bing
+        shell: bash
+        env:
+          INDEXNOW_KEY: 160f2fab5e4d4566bbb03520c9e2caec
+          SITE_ORIGIN: https://www.seo-analizi.com
+        run: |
+          set -euo pipefail
+
+          # Vercel is triggered by the same push. Give the production deployment
+          # time to become available before Bing is told to crawl its URLs.
+          sleep 90
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            mapfile -t urls < <(sed -n 's|.*<loc>\(https://www\.seo-analizi\.com/[^<]*\)</loc>.*|\1|p' sitemap.xml)
+          else
+            mapfile -t changed_files < <(git diff --name-only "${{ github.event.before }}" "$GITHUB_SHA" -- '*.html')
+            urls=()
+            for file in "${changed_files[@]}"; do
+              case "$file" in
+                404.html|sitemap.html) continue ;;
+                index.html) urls+=("$SITE_ORIGIN/") ;;
+                *) urls+=("$SITE_ORIGIN/${file%.html}") ;;
+              esac
+            done
+          fi
+
+          # Deduplicate and retain only URLs that are live after deployment.
+          mapfile -t urls < <(printf '%s\n' "${urls[@]:-}" | sed '/^$/d' | sort -u)
+          live_urls=()
+          for url in "${urls[@]}"; do
+            for attempt in {1..24}; do
+              if curl --fail --silent --show-error --head "$url" > /dev/null; then
+                live_urls+=("$url")
+                break
+              fi
+              sleep 15
+            done
+          done
+
+          if [[ ${#live_urls[@]} -eq 0 ]]; then
+            echo 'No live canonical URLs to submit.'
+            exit 0
+          fi
+
+          url_list=$(printf '%s\n' "${live_urls[@]}" | jq -R . | jq -s .)
+          payload=$(jq -n \
+            --arg host 'www.seo-analizi.com' \
+            --arg key "$INDEXNOW_KEY" \
+            --arg keyLocation "$SITE_ORIGIN/$INDEXNOW_KEY.txt" \
+            --argjson urlList "$url_list" \
+            '{host: $host, key: $key, keyLocation: $keyLocation, urlList: $urlList}')
+
+          curl --fail-with-body --silent --show-error \
+            --request POST 'https://www.bing.com/indexnow' \
+            --header 'Content-Type: application/json; charset=utf-8' \
+            --data "$payload"
